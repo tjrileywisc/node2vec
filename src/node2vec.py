@@ -136,7 +136,7 @@ def alias_setup(probs):
 
     return J, q
 
-    def alias_draw(J, q):
+def alias_draw(J, q):
     '''
     Draw sample from a non-uniform discrete distribution using alias sampling.
     '''
